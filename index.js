@@ -63,6 +63,9 @@ function removeFromCart(item) {
   // write your code here
   let index = cart.indexOf(item);
   if(index === -1){
+    return "That item is not in your cart."
+  }
+  else{
     
   }
 }
